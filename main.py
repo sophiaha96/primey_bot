@@ -1,4 +1,4 @@
-from constants import TELEGRAM_TOKEN, MAX_INPUT
+from constants import TELEGRAM_TOKEN
 from utils.compute_primel_cache import compute_primel_cache
 from commands.start import start
 from commands.primel import primel
@@ -8,7 +8,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 
 def main():
-    compute_primel_cache(MAX_INPUT + 1)
+    compute_primel_cache()
     logging.basicConfig(format = '%(asctime)s - %(message)s', level = logging.INFO)
     updater = Updater(token = TELEGRAM_TOKEN, use_context = True)
 

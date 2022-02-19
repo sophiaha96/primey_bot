@@ -1,3 +1,3 @@
-TELEGRAM_TOKEN = '' # REPLACE WITH TOKEN
-MAX_INPUT = 99999
-MAX_DIGITS = 5
+TELEGRAM_TOKEN = '' # Replace with Telegram bot token
+MAX = 99999
+MAX_DIGITS = len(str(MAX))
