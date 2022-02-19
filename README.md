@@ -1,5 +1,5 @@
 ## About
-This is a Telegram bot that validates whether a number is acceptable for the game Primel. If the guess does not follow the below conditions, a message will be sent back to the user detailing that the entry was invalid:
+This is a Telegram bot that validates whether a number is acceptable for the game [Primel](https://converged.yt/primel/). If the guess does not follow the below conditions, a message will be sent back to the user detailing that the entry was invalid:
 - Contain 5 digits
 - Contain no special characters
 - Have no leading 0s
